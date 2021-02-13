@@ -3,10 +3,14 @@
 Проект собран под Linux.
 
 На данный момент реализованы следующие модули:
-* Сортировка пузырьком - Algorithms/Sorting/bubble_sort.cpp
-* Сортировка кучей     - Algorithms/Sorting/heap_sort.cpp
-* Сортировка вставками - Algorithms/Sorting/insertion_sort.cpp
-* Сортировка выбором   - Algorithms/Sorting/selection_sort.cpp
-* Быстрая сортировка   - Algorithms/Sorting/quick_sort.cpp
+
+1. Алгоритмы (Directory - Algorithms):
+  * Сортировка пузырьком - Algorithms/Sorting/bubble_sort.cpp
+  * Сортировка кучей     - Algorithms/Sorting/heap_sort.cpp
+  * Сортировка вставками - Algorithms/Sorting/insertion_sort.cpp
+  * Сортировка выбором   - Algorithms/Sorting/selection_sort.cpp
+  * Быстрая сортировка   - Algorithms/Sorting/quick_sort.cpp
+2. Структуры данных (Directory - DataStructures):
+  * Бинарные кучи(min/max)
 
 Данный проект выполнен в среде разработки JetBrains - CLion. Сборщик - CMake.
