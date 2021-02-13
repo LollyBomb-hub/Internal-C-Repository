@@ -64,16 +64,16 @@ RM = /snap/clion/139/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilyabiro/CLionProjects/TestProject
+CMAKE_SOURCE_DIR = /home/ilyabiro/CLionProjects/Internal-C-Repository
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/TestProject.dir/all
+all: CMakeFiles/Internal-C-Repository.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/TestProject.dir/clean
+clean: CMakeFiles/Internal-C-Repository.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/TestProject.dir
+# Target rules for target CMakeFiles/Internal-C-Repository.dir
 
 # All Build rule for target.
-CMakeFiles/TestProject.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target TestProject"
-.PHONY : CMakeFiles/TestProject.dir/all
+CMakeFiles/Internal-C-Repository.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Internal-C-Repository.dir/build.make CMakeFiles/Internal-C-Repository.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Internal-C-Repository.dir/build.make CMakeFiles/Internal-C-Repository.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Internal-C-Repository"
+.PHONY : CMakeFiles/Internal-C-Repository.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TestProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/TestProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/TestProject.dir/rule
+CMakeFiles/Internal-C-Repository.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Internal-C-Repository.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Internal-C-Repository.dir/rule
 
 # Convenience name for target.
-TestProject: CMakeFiles/TestProject.dir/rule
+Internal-C-Repository: CMakeFiles/Internal-C-Repository.dir/rule
 
-.PHONY : TestProject
+.PHONY : Internal-C-Repository
 
 # clean rule for target.
-CMakeFiles/TestProject.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/clean
-.PHONY : CMakeFiles/TestProject.dir/clean
+CMakeFiles/Internal-C-Repository.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Internal-C-Repository.dir/build.make CMakeFiles/Internal-C-Repository.dir/clean
+.PHONY : CMakeFiles/Internal-C-Repository.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

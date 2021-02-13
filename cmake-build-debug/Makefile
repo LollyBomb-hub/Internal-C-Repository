@@ -68,24 +68,13 @@ RM = /snap/clion/139/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilyabiro/CLionProjects/TestProject
+CMAKE_SOURCE_DIR = /home/ilyabiro/CLionProjects/Internal-C-Repository
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/139/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -98,11 +87,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/snap/clion/139/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TestProject
+# Target rules for targets named Internal-C-Repository
 
 # Build rule for target.
-TestProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestProject
-.PHONY : TestProject
+Internal-C-Repository: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Internal-C-Repository
+.PHONY : Internal-C-Repository
 
 # fast build rule for target.
-TestProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/build
-.PHONY : TestProject/fast
+Internal-C-Repository/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Internal-C-Repository.dir/build.make CMakeFiles/Internal-C-Repository.dir/build
+.PHONY : Internal-C-Repository/fast
 
-Algorithms/Sorting/quick_sort.o: Algorithms/Sorting/quick_sort.cpp.o
+main.o: main.cpp.o
 
-.PHONY : Algorithms/Sorting/quick_sort.o
+.PHONY : main.o
 
 # target to build an object file
-Algorithms/Sorting/quick_sort.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o
-.PHONY : Algorithms/Sorting/quick_sort.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Internal-C-Repository.dir/build.make CMakeFiles/Internal-C-Repository.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-Algorithms/Sorting/quick_sort.i: Algorithms/Sorting/quick_sort.cpp.i
+main.i: main.cpp.i
 
-.PHONY : Algorithms/Sorting/quick_sort.i
+.PHONY : main.i
 
 # target to preprocess a source file
-Algorithms/Sorting/quick_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.i
-.PHONY : Algorithms/Sorting/quick_sort.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Internal-C-Repository.dir/build.make CMakeFiles/Internal-C-Repository.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-Algorithms/Sorting/quick_sort.s: Algorithms/Sorting/quick_sort.cpp.s
+main.s: main.cpp.s
 
-.PHONY : Algorithms/Sorting/quick_sort.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-Algorithms/Sorting/quick_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TestProject.dir/build.make CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.s
-.PHONY : Algorithms/Sorting/quick_sort.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Internal-C-Repository.dir/build.make CMakeFiles/Internal-C-Repository.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... TestProject"
-	@echo "... Algorithms/Sorting/quick_sort.o"
-	@echo "... Algorithms/Sorting/quick_sort.i"
-	@echo "... Algorithms/Sorting/quick_sort.s"
+	@echo "... Internal-C-Repository"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

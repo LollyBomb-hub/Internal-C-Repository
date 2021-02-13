@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o  -o TestProject 
+/usr/bin/c++  -g   CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.o  -o TestProject 

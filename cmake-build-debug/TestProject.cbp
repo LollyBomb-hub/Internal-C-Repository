@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug"/>
+				<Option working_dir="/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug"/>
+				<Option working_dir="/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TestProject">
-				<Option output="/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/TestProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug"/>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Internal-C-Repository">
+				<Option output="/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Internal-C-Repository" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestProject"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 Internal-C-Repository"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="TestProject/fast">
-				<Option output="/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/TestProject" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug"/>
+			<Target title="Internal-C-Repository/fast">
+				<Option output="/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Internal-C-Repository" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,17 +75,17 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 TestProject/fast"/>
-					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 Internal-C-Repository/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ilyabiro/CLionProjects/TestProject/Algorithms/Sorting/quick_sort.cpp">
-			<Option target="TestProject"/>
+		<Unit filename="/home/ilyabiro/CLionProjects/Internal-C-Repository/main.cpp">
+			<Option target="Internal-C-Repository"/>
 		</Unit>
-		<Unit filename="/home/ilyabiro/CLionProjects/TestProject/CMakeLists.txt">
+		<Unit filename="/home/ilyabiro/CLionProjects/Internal-C-Repository/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

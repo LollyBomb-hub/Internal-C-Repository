@@ -1,16 +1,4 @@
-/snap/clion/139/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ilyabiro/CLionProjects/TestProject
+/snap/clion/139/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ilyabiro/CLionProjects/Internal-C-Repository
 -- Configuring done
-CMake Error at CMakeLists.txt:17 (add_executable):
-  Cannot find source file:
-
-    Algorithms/Sorting/main.cpp
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
-  .hpp .hxx .in .txx
-
-
-CMake Error at CMakeLists.txt:17 (add_executable):
-  No SOURCES given to target: TestProject
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done
+-- Build files have been written to: /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/ilyabiro/CLionProjects/TestProject/Algorithms/Sorting/quick_sort.cpp
-iostream
--
+/home/ilyabiro/CLionProjects/Internal-C-Repository/DataStructures/binary_heap.cpp
 cstdlib
+-
+iostream
 -
 

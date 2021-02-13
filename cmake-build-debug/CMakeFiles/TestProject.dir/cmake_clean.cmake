@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o"
+  "CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.o"
   "TestProject"
   "TestProject.pdb"
 )

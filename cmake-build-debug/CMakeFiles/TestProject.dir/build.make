@@ -63,10 +63,10 @@ RM = /snap/clion/139/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ilyabiro/CLionProjects/TestProject
+CMAKE_SOURCE_DIR = /home/ilyabiro/CLionProjects/Internal-C-Repository
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TestProject.dir/depend.make
@@ -77,30 +77,30 @@ include CMakeFiles/TestProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TestProject.dir/flags.make
 
-CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o: CMakeFiles/TestProject.dir/flags.make
-CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o: ../Algorithms/Sorting/quick_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o -c /home/ilyabiro/CLionProjects/TestProject/Algorithms/Sorting/quick_sort.cpp
+CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.o: CMakeFiles/TestProject.dir/flags.make
+CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.o: ../DataStructures/binary_heap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.o -c /home/ilyabiro/CLionProjects/Internal-C-Repository/DataStructures/binary_heap.cpp
 
-CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilyabiro/CLionProjects/TestProject/Algorithms/Sorting/quick_sort.cpp > CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.i
+CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ilyabiro/CLionProjects/Internal-C-Repository/DataStructures/binary_heap.cpp > CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.i
 
-CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilyabiro/CLionProjects/TestProject/Algorithms/Sorting/quick_sort.cpp -o CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.s
+CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ilyabiro/CLionProjects/Internal-C-Repository/DataStructures/binary_heap.cpp -o CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.s
 
 # Object files for target TestProject
 TestProject_OBJECTS = \
-"CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o"
+"CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.o"
 
 # External object files for target TestProject
 TestProject_EXTERNAL_OBJECTS =
 
-TestProject: CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o
+TestProject: CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.o
 TestProject: CMakeFiles/TestProject.dir/build.make
 TestProject: CMakeFiles/TestProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TestProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TestProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TestProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -113,6 +113,6 @@ CMakeFiles/TestProject.dir/clean:
 .PHONY : CMakeFiles/TestProject.dir/clean
 
 CMakeFiles/TestProject.dir/depend:
-	cd /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilyabiro/CLionProjects/TestProject /home/ilyabiro/CLionProjects/TestProject /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug /home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles/TestProject.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ilyabiro/CLionProjects/Internal-C-Repository /home/ilyabiro/CLionProjects/Internal-C-Repository /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug /home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles/TestProject.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TestProject.dir/depend
 

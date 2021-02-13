@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ilyabiro/CLionProjects/TestProject/Algorithms/Sorting/quick_sort.cpp" "/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o"
+  "/home/ilyabiro/CLionProjects/Internal-C-Repository/DataStructures/binary_heap.cpp" "/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles/TestProject.dir/DataStructures/binary_heap.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

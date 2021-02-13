@@ -1,3 +1,3 @@
-/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ilyabiro/CLionProjects/TestProject/cmake-build-debug/CMakeFiles/TestProject.dir
+/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/ilyabiro/CLionProjects/Internal-C-Repository/cmake-build-debug/CMakeFiles/Internal-C-Repository.dir
