@@ -11,6 +11,6 @@
   * Сортировка выбором   - Algorithms/Sorting/selection_sort.cpp
   * Быстрая сортировка   - Algorithms/Sorting/quick_sort.cpp
 2. Структуры данных (Directory - DataStructures):
-  * Бинарные кучи(min/max)
+  * Бинарные кучи(min/max) - DataStructures/binary_heap.cpp
 
 Данный проект выполнен в среде разработки JetBrains - CLion. Сборщик - CMake.
