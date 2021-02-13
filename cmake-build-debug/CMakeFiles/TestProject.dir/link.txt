@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/TestProject.dir/Algorithms/Sorting/quick_sort.cpp.o  -o TestProject 
