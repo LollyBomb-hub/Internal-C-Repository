@@ -15,3 +15,4 @@
   * Двоичные деревья - DataStructures/binary_tree.cpp
 
 Данный проект выполнен в среде разработки JetBrains - CLion. Сборщик - CMake.
+Также использовались nano, g++;
