@@ -12,5 +12,6 @@
   * Быстрая сортировка   - Algorithms/Sorting/quick_sort.cpp
 2. Структуры данных (Directory - DataStructures):
   * Бинарные кучи(min/max) - DataStructures/binary_heap.cpp
+  * Двоичные деревья - DataStructures/binary_tree.cpp
 
 Данный проект выполнен в среде разработки JetBrains - CLion. Сборщик - CMake.
