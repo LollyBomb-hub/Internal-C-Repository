@@ -71,6 +71,7 @@ int main(void)
 	{
 		insert_into_tree(&my, A[i]);
 	}
+	// Вывод отсортированного дерева
 	print_sorted(my);
 	printf("\n");
 	return 0;
