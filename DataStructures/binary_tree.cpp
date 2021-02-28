@@ -24,19 +24,19 @@ void init_tree(BT *tree, double *initial)
 
 void insert_into_tree(BT *tree, double *value)
 {
-	if(tree->self == NULL) // Если текущий корень неопределён, то записываем значение
+	if(tree->self == NULL) // Р•СЃР»Рё С‚РµРєСѓС‰РёР№ СЌР»РµРјРµРЅС‚ РЅРµРѕРїСЂРµРґРµР»С‘РЅ
 	{
 		tree = (BT*)malloc(sizeof(BT));
 		init_tree(tree, value);
 		return;
 	}
-	else if(*tree->self == *value) // Если равны зачения, то не идём дальше
+	else if(*tree->self == *value) // Р•СЃР»Рё РѕРїСЂРµРґРµР»С‘РЅ, РЅРѕ СѓР¶Рµ РµСЃС‚СЊ РІ РґРµСЂРµРІРµ
 		return;
-	else if(*value < *tree->self) // Если значение < значения текущего корня, то идём в левое поддерево
+	else if(*value < *tree->self) // Р•СЃР»Рё РѕРїСЂРµРґРµР»С‘РЅ Рё РјРµРЅСЊС€Рµ РІСЃС‚Р°РІР»СЏРµРјРѕРіРѕ
 	{
 		insert_into_tree(tree->left_tree, value);
 	}
-	else // Если значение > значения текущего корня, то идём в правое поддерево
+	else // Р•СЃР»Рё РѕРїСЂРµРґРµР»С‘РЅ Рё Р±РѕР»СЊС€Рµ РІСЃС‚Р°РІР»СЏРµРјРѕРіРѕ
 		insert_into_tree(tree->right_tree, value);
 	return;
 }
