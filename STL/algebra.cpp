@@ -5,7 +5,7 @@
 
 using namespace std;
 
-const double fib_sqrt = sqrt(5);
+const double fib_sqrt = (1. + sqrt(5)) / 2;
 
 int phi(int n)
 {
